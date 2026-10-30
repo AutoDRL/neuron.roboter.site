@@ -98,3 +98,20 @@ The current call is focused on ensembles, routing, and model composition, with a
 No funding application should claim that Neuron has completed full-duplex multimodal training, achieved benchmark results, or trained a 3B model. Those remain goals. The first baseline currently in the repository is a small byte-level causal text model used to validate the engineering pipeline.
 
 Do not submit an application, accept terms, provide tax/banking data, or make legal representations on the applicant's behalf without the applicant's review and explicit approval.
+
+
+## 5. Applicant location and cross-border eligibility (checked 2026-10-30)
+
+The applicant has identified Shanghai, China as the current legal residence. San Francisco, United States is a possible alternative location, but it must not be represented as the applicant's residence unless it is genuinely the primary place of residence during the relevant grant/fellowship period and the applicant has the required lawful status and payment arrangements.
+
+### Location-specific findings
+
+- **fal Research Grants:** The official page says the program is open to anyone passionate about open-source AI and does not publish a country exclusion list. It asks applicants to email grants@fal.ai. China eligibility is therefore not expressly ruled out by the public page, but the grants team should confirm any export-control, account, and service availability restrictions before a compute plan is finalized. Do not treat the $50,000 average grant check shown on the page as an entitlement or a guaranteed compute allocation.
+- **RAAIS Foundation Grants:** The official grants page explicitly describes support for open-source AI projects worldwide and rolling three-month project grants. The public page does not state a country exclusion list or individual payment rules. An applicant based in Shanghai should ask the foundation to confirm whether it can contract with and pay an individual resident in mainland China, including the available payment rail and any tax documentation.
+- **AI Grant:** The original open-source grants page lists $5,000–$50,000 in cash or compute. The newer page advertises $10,000–$100,000 and Andromeda compute, but also contains a distinct startup-investment offer whose terms are not a non-dilutive grant. Neither public page clearly states a China-specific eligibility rule. Ask the grant team to confirm current program status, recipient-country eligibility, compute access from mainland China, and whether the requested support is a grant rather than an investment.
+- **Mozilla 2027 Fellowship:** The official FAQ says applicants must be individuals and must be legally able to receive funding from a U.S.-based 501(c)(3). The live Letter of Intent form asks for current location and says the primary location should be where the applicant will reside during the Fellowship if they live in more than one place; it also contains a location-based funding eligibility gate. The public materials reviewed do not establish that a Shanghai-based applicant is eligible or ineligible by country alone. Before investing substantial effort, verify the exact country/location eligibility in the live form and with Mozilla. Do not enter San Francisco unless it is genuinely the applicant's primary location during the Fellowship and the applicant can lawfully reside and receive funds there.
+- **Sequoia Open Source Fellowship:** Keep as a later-stage option after Neuron has external users, contributors, or demonstrable adoption; confirm country/payment eligibility if and when applying.
+
+### Practical application rule
+
+Use Shanghai, China as the applicant location unless the applicant confirms a genuine change in primary residence for the relevant period. A collaborator, mailing address, VPN endpoint, company formation location, or willingness to travel to San Francisco does not by itself establish U.S. residence or U.S. work authorization. Do not use another person's address, bank account, or legal entity as a workaround. Confirm country eligibility and payment rails with each funder in writing before submitting legal or financial declarations.
