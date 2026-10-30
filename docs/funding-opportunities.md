@@ -115,3 +115,48 @@ The applicant has identified Shanghai, China as the current legal residence. San
 ### Practical application rule
 
 Use Shanghai, China as the applicant location unless the applicant confirms a genuine change in primary residence for the relevant period. A collaborator, mailing address, VPN endpoint, company formation location, or willingness to travel to San Francisco does not by itself establish U.S. residence or U.S. work authorization. Do not use another person's address, bank account, or legal entity as a workaround. Confirm country eligibility and payment rails with each funder in writing before submitting legal or financial declarations.
+
+
+## 6. China-based opportunities and revised priority (checked 2026-10-30)
+
+The applicant's current legal residence is Shanghai, China. U.S. residence-based routes are not part of the current plan. Prioritize routes that either explicitly welcome worldwide applicants or are available through eligible mainland-China institutions/communities. "No country exclusion stated" is not the same as confirmed approval for a mainland-China recipient; confirm account access, contracting, export-control, payment, and tax details with the funder.
+
+### Priority 1 — fal Research Grants (compute)
+
+Official page: https://fal.ai/grants
+
+The current official page says the program is open to anyone advancing AI through open-source projects, requires no formal degree, and provides free compute. It asks applicants to email grants@fal.ai with the project description, goals, open-source fit, and relevant work/GitHub links. It does not publish a country exclusion list on the page. This is the strongest direct compute-first route to test from Shanghai, subject to written confirmation that a mainland-China-based recipient can access the awarded services and comply with provider terms. The displayed $50,000 average grant check is not a guaranteed amount or promise to an individual applicant.
+
+### Priority 2 — RAAIS Foundation Grants (three-month research grant)
+
+Official page: https://www.raais.org/grants/
+
+The foundation explicitly says it supports open-source AI research and projects worldwide, accepts rolling applications, and funds defined three-month projects. It particularly aims to support individuals and communities with limited resources. The public page does not disclose a country list, award size, or detailed personal-payment mechanism. Ask whether an individual legally resident in mainland China can be the grantee and how funds can be paid and documented. A suitable Neuron proposal should focus on one bounded, measurable public research result rather than requesting general funding for a large model.
+
+### Priority 3 — China Youth Open Source Seed Fund (small domestic project grant)
+
+Announcement: https://www.ccf.org.cn/Media_list/cncc/2026-10-17/940916.shtml
+
+A CCF article dated October 17, 2026 reports a Youth Open Source Special Fund Seed Program jointly associated with CCF's Open Source Development Technical Committee, Mulan Open Source Community, QI-WU Learning Community, AI Infra Open Source Community, MuXi, and China Guanghua Science and Technology Foundation. It says individual developers and teams may apply; selected projects receive funding and ecosystem support. The second application batch deadline is October 31, 2026. The article reports RMB 4,000 for basic-level projects and RMB 12,000 for key-level projects. AI Infra is an explicit focus, making this thematically relevant to Neuron, but the currently published examples emphasize domestic AI infrastructure and ecosystem adaptation. Confirm the actual application form, applicant age/identity rules, project scope, and submission method immediately; do not assume the CCF article alone constitutes a complete application guide. This is a small seed grant, not meaningful 3B-model GPU funding.
+
+### Conditional route — Huawei Cloud AI 100 Schools 2.0 (Ascend compute)
+
+Official page: https://developer.huaweicloud.com/homepage/aiinnovation.html
+
+The official page supports Ascend cloud AI compute for research innovation, including model training. However, the applicant must be a currently enrolled student/teacher at a nationally recognized university or a staff member of a research institution, must join Huawei's developer program, show substantial AI research achievements, and submit a project explicitly planned for the Ascend platform. It is therefore only viable if the applicant meets the institutional-affiliation requirement. The page says individual applications are for teachers/students; it does not create a general independent-developer route. Compute support is reviewed competitively and is restricted to non-commercial use.
+
+### Institutional-only route — China Science and Technology Development Foundation "Compute Without Borders" 2026
+
+Official announcement: https://fdstmc.cast.org.cn/xwdt/tzgg/art/2026/art_05fa2ffb94ae4b6eb5f81e9fa84a2fa7.html
+
+The October 16, 2026 announcement describes donated high-performance CPU core-hours, with up to one million core-hours per selected institution. Eligible applicants are universities, research institutes, and specified new-technology enterprises; applications must be submitted by the institution, not an individual. Although AI model training is among supported areas, this is CPU supercomputing capacity rather than a direct GPU grant. Consider only if Neuron can work with an eligible institution and the institution can lawfully use the resource for the project.
+
+### Lower priority / monitor
+
+- **Swiss AI Initiative small compute grants:** small-project applications are reviewed on a rolling basis and the initiative says calls are open to researchers in Europe and beyond. The public page does not specifically confirm a mainland-China individual applicant's eligibility or remote access to Alps. Ask the small-grants contact before preparing a proposal. The 2026 large-project deadline (September 14, 2026) has passed.
+- **OpenAI Researcher Access Program:** this is API credit, not GPU training compute, and its eligibility is limited to countries supported by the OpenAI API. Do not treat mainland China as eligible without checking the current supported-country list; not a current priority for Neuron's compute needs.
+- **OpenMined current grant:** the active call is specifically about ensembles, routing, and model composition, so it is not aligned with Neuron's present core research question. Revisit only if a future call fits learned compression or streaming model architecture.
+
+### Removed from current application plan
+
+U.S.-residency-dependent opportunities, including the Mozilla Fellowship route previously considered, are not part of the current plan. Do not use a U.S. address or claim U.S. residence. Reconsider only if the applicant independently changes their actual legal/primary residence and explicitly asks to reassess.
