@@ -4,7 +4,7 @@
 
 The project investigates real-time perception and generation across modalities, learned information compression, reusable representations, and long-term memory.
 
-> **Status:** Initial repository setup and architecture research. The capabilities described here are research goals, not claims of completed implementation.
+> **Status:** The repository now contains an initial byte-level text-model baseline and a basic training/validation/export pipeline. These are engineering foundations, not the final full-duplex multimodal architecture.
 
 ## Research goals
 
@@ -24,6 +24,22 @@ The project investigates real-time perception and generation across modalities, 
 
 The initial research target includes a 3B-parameter model, subject to feasibility studies, data availability, and compute funding. This is a target, not a completed model.
 
+## Quick start
+
+Install the package and development tools:
+
+```bash
+python -m pip install -e ".[dev]"
+```
+
+Train the tiny byte-level baseline on a UTF-8 text corpus:
+
+```bash
+python trainer.py --config configs/byte_lm_tiny.json --data /path/to/corpus.txt
+```
+
+See [the baseline guide](docs/byte-baseline.md) for validation, export, tests, and known limitations.
+
 ## Intended repository layout
 
 ```text
@@ -39,18 +55,18 @@ The initial research target includes a 3B-parameter model, subject to feasibilit
 └── exports.py     # Model export entry point
 ```
 
-Directories and entry points will be added as implementation begins; this describes the intended organization.
-
 ## Current status
 
-- [x] Repository created
-- [x] Initial project overview published
-- [ ] Publish detailed architecture specification
-- [ ] Establish data and evaluation principles
-- [ ] Implement minimal runnable training baseline
-- [ ] Validate memory and throughput on target hardware
-- [ ] Publish reproducible experiments
-- [ ] Expand multimodal and full-duplex capabilities
+- [x] Repository and project overview
+- [x] Initial byte-level causal-LM baseline
+- [x] Basic training, validation, and export entry points
+- [x] Initial unit tests and CI workflow
+- [x] Baseline usage and limitation documentation
+- [ ] Run and record local/CI test results
+- [ ] Establish corpus-level data provenance and evaluation protocol
+- [ ] Develop streaming full-duplex architecture
+- [ ] Research learned cross-modal compression and memory
+- [ ] Benchmark hardware and optimize kernels
 
 ## Open collaboration
 
